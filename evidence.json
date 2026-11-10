@@ -1,0 +1,49 @@
+{
+  "protocol": "threshold-approve-1",
+  "network": "Stable Studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "address": "0xb0eB6Ef019387eB73Bf0F8058d3e6D194B47fD05",
+  "proposal_id": "0xc489e243c60660d0392cd6380a0cb83689859726:release-1",
+  "source_sha256": "708f1be39c652010fe347446a16bdf2ae21a88299b0a812154ba82197fac7a4f",
+  "creator": "0xC489e243c60660D0392cd6380a0cb83689859726",
+  "approvers": [
+    "0x242f4174A1B716975f6884ead666f4CCB8b2F918",
+    "0xA8DF114a487dD6B87aC7d135CbD89a9014ba89F5",
+    "0xda0b2D23a0F5b8DC9386355610Ee19cA39CB51D2"
+  ],
+  "outsider": "0x4Bd25873c86e785E3E4dFbe8613B2Fb8B35f5506",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xb0eB6Ef019387eB73Bf0F8058d3e6D194B47fD05",
+  "transactions": {
+    "deploy": "0x48a6df3b78e58bb037cae49a0167a953eb015e15c3d1f7d25be84d0292437fef",
+    "create": "0xb6a8190a9ab4cc92c14d0cecdd86e8f35b0eb987fe337eefa3dd435c3bb02796",
+    "bad_execute_early": "0x1b89c96c948071ef02376482d23ddd0f24abcd09fbf5ab5bb047edf6a2692b04",
+    "bad_outsider_approve": "0x0d83cc995bbb68be5d657ea92181e4c698c6b1425ed26d6ef851318447311941",
+    "approve_a": "0x290ba321846e1029d9eb395606007c68537679a53ae1bcd4235d40e6119acabb",
+    "approve_b": "0xfbed8811f8026b698a30a019765cbcbf5792b701b24980edc97864977939804b",
+    "execute": "0xd3ca077b42902b17c06fe64563d5fec3695ac83034c1a91124b7db50b05e087b"
+  },
+  "final_proposal": {
+    "action": "Release 5 GEN to contributor for milestone delivery",
+    "amount": 5,
+    "approval_count": 2,
+    "approvals": [
+      "0x242f4174a1b716975f6884ead666f4ccb8b2f918",
+      "0xa8df114a487dd6b87ac7d135cbd89a9014ba89f5"
+    ],
+    "approvers": [
+      "0x242f4174a1b716975f6884ead666f4ccb8b2f918",
+      "0xa8df114a487dd6b87ac7d135cbd89a9014ba89f5",
+      "0xda0b2d23a0f5b8dc9386355610ee19ca39cb51d2"
+    ],
+    "content_hash": "5ba84d8b3e6cee9e5a02be2ccf7ab7ce9deda0a4c6432d3ea74328aa87c4fcf5",
+    "creator": "0xc489e243c60660d0392cd6380a0cb83689859726",
+    "id": "0xc489e243c60660d0392cd6380a0cb83689859726:release-1",
+    "recipient": "0x4bd25873c86e785e3e4dfbe8613b2fb8b35f5506",
+    "revision": 3,
+    "state": "EXECUTED",
+    "threshold_m": 2
+  },
+  "gen_moved": 0,
+  "notes": "No GEN moved: amount is a recorded number, execution is a state transition. Bad calls are expected to fail on-chain; see their receipts / client errors."
+}

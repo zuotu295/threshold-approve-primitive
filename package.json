@@ -1,0 +1,13 @@
+{
+  "name": "threshold-approve-primitive",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "verify:live": "node tools/verify-live.mjs",
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "dependencies": {
+    "genlayer-js": "1.1.8"
+  }
+}
